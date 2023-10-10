@@ -11,7 +11,6 @@ body {
     background-size: cover;
     font-size: 16px;
     letter-spacing: 0.8px;
-    height: 100vh;
 }
 
 h1,
@@ -110,8 +109,10 @@ a:visited {
     margin: 0 auto;
 }
 
-footer {
-    height: 50px;
+
+a:link {
+    color: #fff;
+    cursor: pointer;
 }
 
 /* ========================================
@@ -125,6 +126,10 @@ footer {
         padding: 3em 1em 1em 1em;
         text-align: center;
         max-height: 550px;
+    }
+
+    footer {
+        height: 40px;
     }
 
     #pdf {
